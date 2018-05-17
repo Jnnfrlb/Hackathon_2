@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: hackaton2
+    database_user: root
+    database_password: jecode4wcs
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: c@gmail.com
+    mailer_password: azerty
+    secret: f88654d424ec76b8622d398d93b798cd25fb87f4

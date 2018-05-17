@@ -1,0 +1,11 @@
+$brand-primary: darken(#428bca, 20%);
+body{
+  color: $brand-primary;
+}
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+ // set if you're also including font-awesome
+// $fa-font-path: "~font-awesome/fonts";
+
+// the ~ allows you to reference things in node_modules
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';

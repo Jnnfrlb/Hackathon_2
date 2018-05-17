@@ -20,7 +20,7 @@ class Equipe
     public function __toString()
     {
         // Return the Site object with "[IDEQUIPE]" format, when  __toString is called.
-        return $this->nomEquipe . " " . $this->equipe1 . " " . $this->equipe2;
+        return $this->nomEquipe;
     }
 
     /**
@@ -41,7 +41,7 @@ class Equipe
     /**
      * @var string
      *
-     * @ORM\Column(name="drapeau", type="text")
+     * @ORM\Column(name="drapeau", type="text", nullable=true)
      */
     private $drapeau;
 

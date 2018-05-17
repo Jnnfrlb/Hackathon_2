@@ -14,6 +14,15 @@ class Combat
 {
 
     /**
+     * @return string
+     */
+    public function __toString()
+    {
+        // Return the Site object with "[IDEQUIPE]" format, when  __toString is called.
+        return $this->equipe1 . " " . $this->equipe2;
+    }
+
+    /**
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Equipe")
      * @ORM\JoinColumn(nullable=false)
      */
@@ -107,5 +116,53 @@ class Combat
     public function getResultat()
     {
         return $this->resultat;
+    }
+
+    /**
+     * Set equipe1
+     *
+     * @param \AppBundle\Entity\Equipe $equipe1
+     *
+     * @return Combat
+     */
+    public function setEquipe1(\AppBundle\Entity\Equipe $equipe1)
+    {
+        $this->equipe1 = $equipe1;
+
+        return $this;
+    }
+
+    /**
+     * Get equipe1
+     *
+     * @return \AppBundle\Entity\Equipe
+     */
+    public function getEquipe1()
+    {
+        return $this->equipe1;
+    }
+
+    /**
+     * Set equipe2
+     *
+     * @param \AppBundle\Entity\Equipe $equipe2
+     *
+     * @return Combat
+     */
+    public function setEquipe2(\AppBundle\Entity\Equipe $equipe2)
+    {
+        $this->equipe2 = $equipe2;
+
+        return $this;
+    }
+
+    /**
+     * Get equipe2
+     *
+     * @return \AppBundle\Entity\Equipe
+     */
+    public function getEquipe2()
+    {
+        return $this->equipe2;
     }
 }

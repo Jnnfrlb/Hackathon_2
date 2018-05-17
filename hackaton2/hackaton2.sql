@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Jeu 17 Mai 2018 à 15:04
+-- Généré le :  Jeu 17 Mai 2018 à 15:15
 -- Version du serveur :  5.7.22-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.28-0ubuntu0.16.04.1
 
@@ -162,36 +162,36 @@ INSERT INTO `joueur` (`id`, `nom`, `arme`, `age`, `photo`, `id_equipe_id`) VALUE
 (58, 'Pwala', 'Hache de vicking', NULL, '/assets/images/Amazones/pwala.jpeg', 10),
 (59, 'W-women', 'Hache de vicking', NULL, '/assets/images/Amazones/w-women.jpeg', 10),
 (60, 'Xen', 'Fléau d\'arme de poing ', NULL, '/assets/images/Amazones/xen.jpg', 10),
-(61, '2', 'Lance de combat', NULL, '/assets/images/equipe5/2.jpeg', 11),
-(62, 'Anoda', 'Epée des templiers', NULL, '/assets/images/equipe5/anoda.jpg', 11),
-(63, 'Doumba', 'Masse de combat', NULL, '/assets/images/equipe5/doumba.jpg', 11),
-(64, 'Indian', 'Epée des templiers', NULL, '/assets/images/equipe5/indian.jpeg', 11),
-(65, 'Moltanda', 'Hache de vicking', NULL, '/assets/images/equipe5/moltanda.jpg', 11),
-(66, 'Parata', 'Epée des templiers', NULL, '/assets/images/equipe5/parata.jpg', 11),
-(67, '1', 'Hache de vicking', NULL, '/assets/images/equipe4/1.jpeg', 12),
-(68, 'Haroun', 'Epée des templiers', NULL, '/assets/images/equipe4/haroun.jpg', 12),
-(69, 'Hasan', 'Hache de vicking', NULL, '/assets/images/equipe4/hasan.jpg', 12),
-(70, 'Kab Malik', 'Epée des templiers', NULL, '/assets/images/equipe4/kab-malik.jpeg', 12),
-(71, 'Khaled Walid', 'Masse de combat', NULL, '/assets/images/equipe4/khaled-walid.jpeg', 12),
-(72, 'Omar', 'Epée des templiers', NULL, '/assets/images/equipe4/omar.jpg', 12),
-(73, 'Abu Hudayfa', 'Lance de combat', NULL, '/assets/images/equipe3/abu-hudayfa.jpg', 13),
-(74, 'Ali', 'Epée des templiers', NULL, '/assets/images/equipe3/ali.jpg', 13),
-(75, 'El Motasim', 'Hache de vicking', NULL, '/assets/images/equipe3/el-motasim.jpg', 13),
-(76, 'Imam', 'Epée des templiers', NULL, '/assets/images/equipe3/imam.jpeg', 13),
-(77, 'Kamar', 'Masse de combat', NULL, '/assets/images/equipe3/kamar.jpg', 13),
-(78, 'Omar Mokhtar', 'Hache de vicking', NULL, '/assets/images/equipe3/omar-mokhtarjpg.jpg', 13),
-(79, 'Ahmès', 'Epée des templiers', NULL, '/assets/images/equipe2/Ahmès.jpg', 14),
-(80, 'Akhénaton', 'Fléau d\'arme de poing ', NULL, '/assets/images/equipe2/Akhénaton.jpg', 14),
-(81, 'Aâouserrê', 'Fléau d\'arme de poing ', NULL, '/assets/images/equipe2/Aâouserrê(1).jpg', 14),
-(82, 'Cleopatre', 'Hache de vicking', NULL, '/assets/images/equipe2/cleopatre.jpg', 14),
-(83, 'Aâouserrê1', 'Hache de vicking', NULL, '/assets/images/equipe2/Aâouserrê.JPG', 14),
-(84, 'Âakhéperkarê', 'Hache de vicking', NULL, '/assets/images/equipe2/Âakhéperkarê.jpg', 14),
-(85, 'Hatun', 'Masse de combat', NULL, '/assets/images/equipe1/hatun.png', 15),
-(86, 'Mehmed-II', 'Fléau d\'arme de poing ', NULL, '/assets/images/equipe1/Mehmed-II.jpg', 15),
-(87, 'Mehmet', 'Lance de combat', NULL, '/assets/images/equipe1/mehmet.jpg', 15),
-(88, 'Moustapha', 'Epée des templiers', NULL, '/assets/images/equipe1/moustapha.jpg', 15),
-(89, 'Solayman', 'Fléau d\'arme de poing ', NULL, '/assets/images/equipe1/solayman.png', 15),
-(90, 'Sultan Osman', 'Masse de combat', NULL, '/assets/images/equipe1/Sultan-osman.jpg', 15),
+(61, '2', 'Lance de combat', NULL, '/assets/images/Indian/2.jpeg', 11),
+(62, 'Anoda', 'Epée des templiers', NULL, '/assets/images/Indian/anoda.jpg', 11),
+(63, 'Doumba', 'Masse de combat', NULL, '/assets/images/Indian/doumba.jpg', 11),
+(64, 'Indian', 'Epée des templiers', NULL, '/assets/images/Indian/indian.jpeg', 11),
+(65, 'Moltanda', 'Hache de vicking', NULL, '/assets/images/Indian/moltanda.jpg', 11),
+(66, 'Parata', 'Epée des templiers', NULL, '/assets/images/Indian/parata.jpg', 11),
+(67, '1', 'Hache de vicking', NULL, '/assets/images/Khilafa/1.jpeg', 12),
+(68, 'Haroun', 'Epée des templiers', NULL, '/assets/images/Khilafa/haroun.jpg', 12),
+(69, 'Hasan', 'Hache de vicking', NULL, '/assets/images/Khilafa/hasan.jpg', 12),
+(70, 'Kab Malik', 'Epée des templiers', NULL, '/assets/images/Khilafa/kab-malik.jpeg', 12),
+(71, 'Khaled Walid', 'Masse de combat', NULL, '/assets/images/Khilafa/khaled-walid.jpeg', 12),
+(72, 'Omar', 'Epée des templiers', NULL, '/assets/images/Khilafa/omar.jpg', 12),
+(73, 'Abu Hudayfa', 'Lance de combat', NULL, '/assets/images/Fatimides/abu-hudayfa.jpg', 13),
+(74, 'Ali', 'Epée des templiers', NULL, '/assets/images/Fatimides/ali.jpg', 13),
+(75, 'El Motasim', 'Hache de vicking', NULL, '/assets/images/Fatimides/el-motasim.jpg', 13),
+(76, 'Imam', 'Epée des templiers', NULL, '/assets/images/Fatimides/imam.jpeg', 13),
+(77, 'Kamar', 'Masse de combat', NULL, '/assets/images/Fatimides/kamar.jpg', 13),
+(78, 'Omar Mokhtar', 'Hache de vicking', NULL, '/assets/images/Fatimides/omar-mokhtarjpg.jpg', 13),
+(79, 'Ahmès', 'Epée des templiers', NULL, '/assets/images/Egyptiens/Ahmès.jpg', 14),
+(80, 'Akhénaton', 'Fléau d\'arme de poing ', NULL, '/assets/images/Egyptiens/Akhénaton.jpg', 14),
+(81, 'Aâouserrê', 'Fléau d\'arme de poing ', NULL, '/assets/images/Egyptiens/Aâouserrê(1).jpg', 14),
+(82, 'Cleopatre', 'Hache de vicking', NULL, '/assets/images/Egyptiens/cleopatre.jpg', 14),
+(83, 'Aâouserrê1', 'Hache de vicking', NULL, '/assets/images/Egyptiens/Aâouserrê.JPG', 14),
+(84, 'Âakhéperkarê', 'Hache de vicking', NULL, '/assets/images/Egyptiens/Âakhéperkarê.jpg', 14),
+(85, 'Hatun', 'Masse de combat', NULL, '/assets/images/Ottoman/hatun.png', 15),
+(86, 'Mehmed-II', 'Fléau d\'arme de poing ', NULL, '/assets/images/Ottoman/Mehmed-II.jpg', 15),
+(87, 'Mehmet', 'Lance de combat', NULL, '/assets/images/Ottoman/mehmet.jpg', 15),
+(88, 'Moustapha', 'Epée des templiers', NULL, '/assets/images/Ottoman/moustapha.jpg', 15),
+(89, 'Solayman', 'Fléau d\'arme de poing ', NULL, '/assets/images/Ottoman/solayman.png', 15),
+(90, 'Sultan Osman', 'Masse de combat', NULL, '/assets/images/Ottoman/Sultan-osman.jpg', 15),
 (91, 'Arthur', 'Hache de vicking', NULL, '/assets/images/Chevaliers de la table du bar /Arthur.jpg', 16),
 (92, 'Chevalier Noir', 'Hache de vicking', NULL, '/assets/images/Chevaliers de la table du bar /chevaliernoir.jpg', 16),
 (93, 'Lancelot', 'Lance de combat', NULL, '/assets/images/Chevaliers de la table du bar /lancelot.jpg', 16),
@@ -232,12 +232,12 @@ ALTER TABLE `joueur`
 -- AUTO_INCREMENT pour la table `combat`
 --
 ALTER TABLE `combat`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT pour la table `equipe`
 --
 ALTER TABLE `equipe`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT pour la table `joueur`
 --

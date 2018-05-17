@@ -39,14 +39,14 @@ class Joueur
     /**
      * @var string
      *
-     * @ORM\Column(name="arme", type="string", length=255)
+     * @ORM\Column(name="arme", type="string", length=255, nullable=true)
      */
     private $arme;
 
     /**
      * @var int
      *
-     * @ORM\Column(name="age", type="smallint")
+     * @ORM\Column(name="age", type="smallint", nullable=true)
      */
     private $age;
 

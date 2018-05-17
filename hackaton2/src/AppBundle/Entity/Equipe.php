@@ -41,7 +41,7 @@ class Equipe
     /**
      * @var string
      *
-     * @ORM\Column(name="drapeau", type="text")
+     * @ORM\Column(name="drapeau", type="text", nullable=true)
      */
     private $drapeau;
 

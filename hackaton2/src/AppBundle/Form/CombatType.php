@@ -13,7 +13,7 @@ class CombatType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('date')->add('resultat');
+        $builder->add('date')->add('resultat')->add('equipe1')->add('equipe2');
     }/**
      * {@inheritdoc}
      */

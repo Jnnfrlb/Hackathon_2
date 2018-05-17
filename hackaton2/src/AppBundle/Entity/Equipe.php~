@@ -20,7 +20,7 @@ class Equipe
     public function __toString()
     {
         // Return the Site object with "[IDEQUIPE]" format, when  __toString is called.
-        return $this->nomEquipe;
+        return $this->nomEquipe . " " . $this->equipe1 . " " . $this->equipe2;
     }
 
     /**
